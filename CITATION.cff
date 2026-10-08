@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "Cite this software version and the associated code-and-data record."
+title: "BGEMS: Body Grid End-to-End Management System"
+type: software
+version: v1.0.0-resubmit
+repository-code: "https://github.com/thuzhangh25/BGEMS"
+license: Apache-2.0
+authors:
+  - family-names: Zhang
+    given-names: Hong
+    affiliation: "Tsinghua Shenzhen International Graduate School, Tsinghua University"
+  - family-names: Bai
+    given-names: Xiang
+    affiliation: "Shanxi Energy Internet Research Institute"
+  - family-names: Chang
+    given-names: Xinyue
+    affiliation: "Shanxi Energy Internet Research Institute"
+  - family-names: Zhang
+    given-names: Jiahui
+    affiliation: "Shanxi Energy Internet Research Institute"
+  - family-names: Zhang
+    given-names: Xuan
+    affiliation: "Tsinghua Shenzhen International Graduate School, Tsinghua University"
+references:
+  - type: data
+    title: "BGEMS: Code and Data for Reproducing the Resubmission Results"
+    version: v1.0.0-resubmit
+    doi: 10.5281/zenodo.23230495
+    notes: "Associated mixed code-and-data record, not a separate software-only DOI."
+    authors:
+      - family-names: Zhang
+        given-names: Hong
+      - family-names: Bai
+        given-names: Xiang
+      - family-names: Chang
+        given-names: Xinyue
+      - family-names: Zhang
+        given-names: Jiahui
+      - family-names: Zhang
+        given-names: Xuan

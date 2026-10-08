@@ -1,0 +1,8 @@
+numpy
+pandas
+requests
+matplotlib
+# HiGHS solves the Stage 3 linear programs with piecewise-linear penalties.
+scipy==1.17.1
+highspy==1.15.1
+pythermalcomfort==4.6.0

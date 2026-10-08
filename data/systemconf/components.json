@@ -1,0 +1,318 @@
+{
+ "system": {
+  "base_electronics_mass_kg": 0.5,
+  "base_electronics_cost_usd": 150.0,
+  "base_electronics_power_w": 5.0,
+  "air_resistance_m2k_per_w": 0.109,
+  "max_battery_units": 30,
+  "max_pv_units": 8
+ },
+ "battery_unit": {
+  "capacity_wh": 60.0,
+  "mass_kg": 0.25,
+  "cost_usd": 10.0,
+  "voltage_v": 10.8,
+  "heat_capacity_j_per_k": 275.0,
+  "thermal_resistance_k_per_w": 3.0,
+  "max_discharge_w": 60.0,
+  "max_charge_w": 30.0
+ },
+ "photovoltaic_unit": {
+  "rated_power_w": 20.0,
+  "mass_kg": 0.2,
+  "cost_usd": 20.0
+ },
+ "regional_model": {
+  "region_order": [
+   "left_chest",
+   "right_chest",
+   "back",
+   "pelvis",
+   "left_upper_arm",
+   "right_upper_arm",
+   "left_lower_arm",
+   "right_lower_arm",
+   "left_thigh",
+   "right_thigh",
+   "left_lower_leg",
+   "right_lower_leg"
+  ],
+  "weights": [
+   0.105,
+   0.105,
+   0.185,
+   0.297,
+   0.032,
+   0.032,
+   0.017,
+   0.017,
+   0.07,
+   0.07,
+   0.035,
+   0.035
+  ],
+  "reference_skin_temperatures_c": [
+   34.76,
+   34.76,
+   34.67,
+   34.92,
+   34.39,
+   34.39,
+   33.99,
+   33.99,
+   34.28,
+   34.28,
+   34.08,
+   34.08
+  ],
+  "area_allocation_proxies": [
+   0.05,
+   0.05,
+   0.1,
+   0.15,
+   0.075,
+   0.075,
+   0.045,
+   0.045,
+   0.1,
+   0.1,
+   0.065,
+   0.065
+  ]
+ },
+ "garments": [
+  {
+   "id": 0,
+   "name": "a_down_jumpsuit",
+   "clothing_resistance_m2k_per_w": 0.39215,
+   "heating_pad_locations": [
+    "left_chest",
+    "right_chest",
+    "back",
+    "pelvis",
+    "left_upper_arm",
+    "right_upper_arm",
+    "left_lower_arm",
+    "right_lower_arm",
+    "left_thigh",
+    "right_thigh",
+    "left_lower_leg",
+    "right_lower_leg"
+   ],
+   "mass_kg": 1.5,
+   "cost_usd": 800.0,
+   "mass_and_cost_include_heating_pads": true
+  },
+  {
+   "id": 1,
+   "name": "b_fleece_jumpsuit",
+   "clothing_resistance_m2k_per_w": 0.1147,
+   "heating_pad_locations": [
+    "left_chest",
+    "right_chest",
+    "back",
+    "pelvis",
+    "left_upper_arm",
+    "right_upper_arm",
+    "left_lower_arm",
+    "right_lower_arm",
+    "left_thigh",
+    "right_thigh",
+    "left_lower_leg",
+    "right_lower_leg"
+   ],
+   "mass_kg": 1.0,
+   "cost_usd": 600.0,
+   "mass_and_cost_include_heating_pads": true
+  },
+  {
+   "id": 2,
+   "name": "c_down_top",
+   "clothing_resistance_m2k_per_w": 0.31,
+   "heating_pad_locations": [
+    "left_chest",
+    "right_chest",
+    "back",
+    "pelvis",
+    "left_upper_arm",
+    "right_upper_arm",
+    "left_lower_arm",
+    "right_lower_arm"
+   ],
+   "mass_kg": 0.7,
+   "cost_usd": 350.0,
+   "mass_and_cost_include_heating_pads": true
+  },
+  {
+   "id": 3,
+   "name": "d_fleece_top",
+   "clothing_resistance_m2k_per_w": 0.0527,
+   "heating_pad_locations": [
+    "left_chest",
+    "right_chest",
+    "back",
+    "pelvis",
+    "left_upper_arm",
+    "right_upper_arm",
+    "left_lower_arm",
+    "right_lower_arm"
+   ],
+   "mass_kg": 0.5,
+   "cost_usd": 250.0,
+   "mass_and_cost_include_heating_pads": true
+  }
+ ],
+ "heating_pads": [
+  {
+   "id": 1,
+   "location": "left_chest",
+   "zone": "core",
+   "pad_type": "B",
+   "rated_power_w": 9.0,
+   "efficiency": 0.98
+  },
+  {
+   "id": 2,
+   "location": "right_chest",
+   "zone": "core",
+   "pad_type": "B",
+   "rated_power_w": 9.0,
+   "efficiency": 0.98
+  },
+  {
+   "id": 3,
+   "location": "back",
+   "zone": "core",
+   "pad_type": "D",
+   "rated_power_w": 18.0,
+   "efficiency": 1.0
+  },
+  {
+   "id": 4,
+   "location": "pelvis",
+   "zone": "core",
+   "pad_type": "D",
+   "rated_power_w": 18.0,
+   "efficiency": 1.0
+  },
+  {
+   "id": 5,
+   "location": "left_upper_arm",
+   "zone": "upper_limb",
+   "pad_type": "A",
+   "rated_power_w": 15.0,
+   "efficiency": 0.75
+  },
+  {
+   "id": 6,
+   "location": "right_upper_arm",
+   "zone": "upper_limb",
+   "pad_type": "A",
+   "rated_power_w": 15.0,
+   "efficiency": 0.75
+  },
+  {
+   "id": 7,
+   "location": "left_lower_arm",
+   "zone": "upper_limb",
+   "pad_type": "B",
+   "rated_power_w": 9.0,
+   "efficiency": 0.68
+  },
+  {
+   "id": 8,
+   "location": "right_lower_arm",
+   "zone": "upper_limb",
+   "pad_type": "B",
+   "rated_power_w": 9.0,
+   "efficiency": 0.68
+  },
+  {
+   "id": 9,
+   "location": "left_thigh",
+   "zone": "lower_limb",
+   "pad_type": "C",
+   "rated_power_w": 18.0,
+   "efficiency": 0.82
+  },
+  {
+   "id": 10,
+   "location": "right_thigh",
+   "zone": "lower_limb",
+   "pad_type": "C",
+   "rated_power_w": 18.0,
+   "efficiency": 0.82
+  },
+  {
+   "id": 11,
+   "location": "left_lower_leg",
+   "zone": "lower_limb",
+   "pad_type": "A",
+   "rated_power_w": 15.0,
+   "efficiency": 0.65
+  },
+  {
+   "id": 12,
+   "location": "right_lower_leg",
+   "zone": "lower_limb",
+   "pad_type": "A",
+   "rated_power_w": 15.0,
+   "efficiency": 0.65
+  }
+ ],
+ "pad_types": [
+  {
+   "id": "A",
+   "dimensions_cm": [
+    35.0,
+    24.0
+   ],
+   "rated_power_w": 15.0,
+   "resistance_ohm": 5.4,
+   "voltage_v": 9.0,
+   "cost_usd": null
+  },
+  {
+   "id": "B",
+   "dimensions_cm": [
+    29.0,
+    16.0
+   ],
+   "rated_power_w": 9.0,
+   "resistance_ohm": 8.0,
+   "voltage_v": 9.0,
+   "cost_usd": null
+  },
+  {
+   "id": "C",
+   "dimensions_cm": [
+    46.0,
+    24.0
+   ],
+   "rated_power_w": 18.0,
+   "resistance_ohm": 4.5,
+   "voltage_v": 9.0,
+   "cost_usd": null
+  },
+  {
+   "id": "D",
+   "dimensions_cm": [
+    34.0,
+    29.0
+   ],
+   "rated_power_w": 18.0,
+   "resistance_ohm": 4.5,
+   "voltage_v": 9.0,
+   "cost_usd": null
+  }
+ ],
+ "equipment_backpack": {
+  "id": 13,
+  "location": "backpack",
+  "pad_type": "D",
+  "rated_power_w": 18.0,
+  "mass_kg": 0.2,
+  "cost_usd": 25.0,
+  "bus_limit_w": 200.0
+ }
+}

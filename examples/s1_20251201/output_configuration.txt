@@ -1,0 +1,12 @@
+status: success
+subject_height_cm: 175
+subject_weight_kg: 70.0
+subject_age_years: 30
+subject_bmi: 22.86
+subject_bsa_m2: 1.844
+garment_type: c_down_top
+backpack_included: false
+battery_units: 3
+pv_units: 0
+system_mass_kg: 1.95
+system_cost_usd: 530

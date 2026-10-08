@@ -1,0 +1,12 @@
+status: success
+subject_height_cm: 175
+subject_weight_kg: 70.0
+subject_age_years: 30
+subject_bmi: 22.86
+subject_bsa_m2: 1.844
+garment_type: a_down_jumpsuit
+backpack_included: true
+battery_units: 13
+pv_units: 0
+system_mass_kg: 5.25
+system_cost_usd: 1080

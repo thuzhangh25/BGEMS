@@ -1,0 +1,97 @@
+{
+  "case1": {
+    "scenario_type": 1,
+    "display_name": "Harbin Outdoor Skiing",
+    "category": "short-term heavy heating-demand",
+    "weather_location": "Harbin",
+    "timezone": "Asia/Shanghai",
+    "local_start_time": "09:00",
+    "initial_state": {"soc": 1.0, "battery_c": 20.0, "equipment_on": 0, "air_history_c": []},
+    "terminal_soc": 0.15,
+    "weather": {
+      "temperature_sample_hours": 1.0,
+      "pv_sample_hours": 1.0,
+      "pv_reference_rating_w": 100.0,
+      "temperature_filename_template": "{weather_location}_{date}.csv",
+      "pv_filename_template": "{weather_location}_{date}.csv"
+    },
+    "backpack": {"included": false, "equipment_heater_installed": false, "max_pv_units": 0},
+    "search": {"max_battery_units": 30, "max_pv_units": 0, "priority": ["mass", "cost"], "fixed_configuration": [1, 0, 0]},
+    "operation": {"step_h": 0.1, "horizon_h": 3.0, "soc_min": 0.05, "soc_safe": 0.15, "lambda_deg": 0.1, "lambda_soc": 100.0, "equipment_on_c": 0.0, "equipment_off_c": 5.0, "filter_window_h": 0.2, "solver_tolerance": 1e-7, "constraint_tolerance": 1e-9, "forecast_mode": "persistence"},
+    "comparison": {"enabled": false, "design_manifest": null},
+    "evaluation": {"balance_tolerance_wh": 1e-8, "time_tolerance_hours": 1e-9},
+    "phases": [
+      {"label": "Initialization", "start_h": 0.0, "end_h": 0.5, "met": 1.0, "service_floor": 0.80},
+      {"label": "Gondola ascent", "start_h": 0.5, "end_h": 0.7, "met": 1.2, "service_floor": 0.80},
+      {"label": "High-speed descent", "start_h": 0.7, "end_h": 1.2, "met": 5.5, "service_floor": 0.45},
+      {"label": "Queue waiting", "start_h": 1.2, "end_h": 1.4, "met": 1.1, "service_floor": 0.80},
+      {"label": "High-speed descent", "start_h": 1.4, "end_h": 1.9, "met": 5.5, "service_floor": 0.45},
+      {"label": "Queue waiting", "start_h": 1.9, "end_h": 2.1, "met": 1.1, "service_floor": 0.80},
+      {"label": "High-speed descent", "start_h": 2.1, "end_h": 2.6, "met": 5.5, "service_floor": 0.45},
+      {"label": "Chair lift", "start_h": 2.6, "end_h": 2.8, "met": 1.2, "service_floor": 0.80},
+      {"label": "Final descent", "start_h": 2.8, "end_h": 3.0, "met": 4.0, "service_floor": 0.60}
+    ]
+  },
+  "case2": {
+    "scenario_type": 2,
+    "display_name": "Muztagh Ata Mountaineering",
+    "category": "long-term light heating-demand",
+    "weather_location": "Muztagh Ata",
+    "timezone": "Asia/Shanghai",
+    "local_start_time": "06:00",
+    "initial_state": {"soc": 1.0, "battery_c": 20.0, "equipment_on": 0, "air_history_c": []},
+    "terminal_soc": 0.15,
+    "weather": {
+      "temperature_sample_hours": 1.0,
+      "pv_sample_hours": 1.0,
+      "pv_reference_rating_w": 100.0,
+      "temperature_filename_template": "{weather_location}_{date}.csv",
+      "pv_filename_template": "{weather_location}_{date}.csv"
+    },
+    "backpack": {"included": true, "equipment_heater_installed": true, "max_pv_units": 8},
+    "search": {"max_battery_units": 30, "max_pv_units": 8, "priority": ["mass", "cost"], "fixed_configuration": [1, 0, 0]},
+    "operation": {"step_h": 0.2, "horizon_h": 12.0, "soc_min": 0.05, "soc_safe": 0.15, "lambda_deg": 0.1, "lambda_soc": 100.0, "equipment_on_c": 0.0, "equipment_off_c": 5.0, "filter_window_h": 0.2, "solver_tolerance": 1e-7, "constraint_tolerance": 1e-9, "forecast_mode": "persistence"},
+    "comparison": {"enabled": false, "design_manifest": null},
+    "evaluation": {"balance_tolerance_wh": 1e-8, "time_tolerance_hours": 1e-9},
+    "phases": [
+      {"label": "Initialization", "start_h": 0.0, "end_h": 2.0, "met": 1.0, "service_floor": 0.80},
+      {"label": "Approach hike", "start_h": 2.0, "end_h": 5.0, "met": 3.5, "service_floor": 0.70},
+      {"label": "Steep ascent", "start_h": 5.0, "end_h": 7.0, "met": 5.5, "service_floor": 0.50},
+      {"label": "Sustained climbing", "start_h": 7.0, "end_h": 8.0, "met": 6.0, "service_floor": 0.40},
+      {"label": "Summit rest / photo", "start_h": 8.0, "end_h": 10.0, "met": 1.5, "service_floor": 0.75},
+      {"label": "Technical descent", "start_h": 10.0, "end_h": 12.0, "met": 4.0, "service_floor": 0.65}
+    ]
+  },
+  "case3": {
+    "scenario_type": 3,
+    "display_name": "Qinling Outdoor Scientific Expedition",
+    "category": "long-term heavy heating-demand",
+    "weather_location": "Qinling Station",
+    "timezone": "Asia/Shanghai",
+    "local_start_time": "08:00",
+    "initial_state": {"soc": 1.0, "battery_c": 20.0, "equipment_on": 0, "air_history_c": []},
+    "terminal_soc": 0.15,
+    "weather": {
+      "temperature_sample_hours": 1.0,
+      "pv_sample_hours": 1.0,
+      "pv_reference_rating_w": 100.0,
+      "temperature_filename_template": "{weather_location}_{date}.csv",
+      "pv_filename_template": "{weather_location}_{date}.csv"
+    },
+    "backpack": {"included": true, "equipment_heater_installed": true, "max_pv_units": 8},
+    "search": {"max_battery_units": 30, "max_pv_units": 8, "priority": ["mass", "cost"], "fixed_configuration": [1, 0, 0]},
+    "operation": {"step_h": 0.2, "horizon_h": 14.0, "soc_min": 0.05, "soc_safe": 0.15, "lambda_deg": 0.1, "lambda_soc": 100.0, "equipment_on_c": 0.0, "equipment_off_c": 5.0, "filter_window_h": 0.2, "solver_tolerance": 1e-7, "constraint_tolerance": 1e-9, "forecast_mode": "persistence"},
+    "comparison": {"enabled": false, "design_manifest": null},
+    "evaluation": {"balance_tolerance_wh": 1e-8, "time_tolerance_hours": 1e-9},
+    "phases": [
+      {"label": "Field preparation", "start_h": 0.0, "end_h": 1.0, "met": 1.0, "service_floor": 0.80},
+      {"label": "Low-intensity field activity", "start_h": 1.0, "end_h": 5.0, "met": 1.5, "service_floor": 0.75},
+      {"label": "Field survey", "start_h": 5.0, "end_h": 6.0, "met": 1.8, "service_floor": 0.80},
+      {"label": "Low-intensity field activity", "start_h": 6.0, "end_h": 9.0, "met": 1.5, "service_floor": 0.75},
+      {"label": "Field survey", "start_h": 9.0, "end_h": 10.0, "met": 1.8, "service_floor": 0.80},
+      {"label": "Equipment transport", "start_h": 10.0, "end_h": 11.0, "met": 4.0, "service_floor": 0.60},
+      {"label": "Low-intensity field activity", "start_h": 11.0, "end_h": 12.0, "met": 1.5, "service_floor": 0.75},
+      {"label": "Return traverse", "start_h": 12.0, "end_h": 14.0, "met": 1.3, "service_floor": 0.80}
+    ]
+  }
+}

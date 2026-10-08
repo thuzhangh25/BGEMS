@@ -1,0 +1,52 @@
+{
+  "mode": "search",
+  "status": "success",
+  "service_definition": "whole_body_total_heat_v1",
+  "priority": [
+    "mass",
+    "cost"
+  ],
+  "forecast_mode": "persistence",
+  "counts": {
+    "scheduled": 1080,
+    "available": 1080,
+    "resolved": 1080,
+    "success": 299,
+    "failed": 781,
+    "unresolved": 0,
+    "missing": 0,
+    "unresolved_or_missing": 0,
+    "candidate_feasible_fraction": 0.27685185185185185,
+    "candidate_denominator": 1080
+  },
+  "timings": {
+    "preparation_seconds": 1.735335125005804,
+    "operation_seconds": 2934.636082293,
+    "evaluation_seconds": 2853.3714587806026,
+    "priority_lp_seconds": 1331.8749181019957,
+    "lp_seconds": 483.31368227658095,
+    "priority_audit_seconds": 2849.894695863535,
+    "selection_seconds": 0.0025837919674813747,
+    "elapsed_before_summary_seconds": 5802.623870750016,
+    "total_seconds": 5802.773682083003
+  },
+  "selected": [
+    13,
+    0,
+    0
+  ],
+  "pareto": [
+    [
+      13,
+      0,
+      0
+    ],
+    [
+      21,
+      0,
+      2
+    ]
+  ],
+  "selection_scope": "declared_domain",
+  "note": "Design-domain candidate counts are not a reliability sample."
+}

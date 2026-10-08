@@ -1,0 +1,404 @@
+{
+  "mode": "search",
+  "config": {
+    "scenario": {
+      "scenario_type": 3,
+      "name": "Qinling Outdoor Scientific Expedition",
+      "category": "long-term heavy heating-demand",
+      "weather_location": "Qinling Station",
+      "timezone": "Asia/Shanghai",
+      "start": "2026-02-11T08:00:00+08:00",
+      "phases": [
+        [
+          "Field preparation",
+          1.0,
+          1.0,
+          0.8
+        ],
+        [
+          "Low-intensity field activity",
+          4.0,
+          1.5,
+          0.75
+        ],
+        [
+          "Field survey",
+          1.0,
+          1.8,
+          0.8
+        ],
+        [
+          "Low-intensity field activity",
+          3.0,
+          1.5,
+          0.75
+        ],
+        [
+          "Field survey",
+          1.0,
+          1.8,
+          0.8
+        ],
+        [
+          "Equipment transport",
+          1.0,
+          4.0,
+          0.6
+        ],
+        [
+          "Low-intensity field activity",
+          1.0,
+          1.5,
+          0.75
+        ],
+        [
+          "Return traverse",
+          2.0,
+          1.3,
+          0.8
+        ]
+      ],
+      "air_resistance": 0.109,
+      "initial_state": {
+        "soc": 1.0,
+        "battery_c": 20.0,
+        "equipment_on": 0,
+        "air_history_c": []
+      },
+      "terminal_soc": 0.15,
+      "temperature_files": "/Users/hong/Workspace/BGEMS-new/data/weather/temperature/Qinling_Station_2026-02-11.csv",
+      "pv_files": "/Users/hong/Workspace/BGEMS-new/data/weather/pv/Qinling_Station_2026-02-11.csv",
+      "temperature_sample_hours": 1.0,
+      "pv_sample_hours": 1.0,
+      "pv_reference_rating_w": 100.0,
+      "backpack_included": true,
+      "equipment_heater_required": true
+    },
+    "person": {
+      "subject_id": "reference_adult",
+      "height_cm": 175.0,
+      "weight_kg": 70.0,
+      "age_years": 30,
+      "sex": "male",
+      "weights": [
+        0.105,
+        0.105,
+        0.185,
+        0.297,
+        0.032,
+        0.032,
+        0.017,
+        0.017,
+        0.07,
+        0.07,
+        0.035,
+        0.035
+      ],
+      "skin_temperatures_c": [
+        34.76,
+        34.76,
+        34.67,
+        34.92,
+        34.39,
+        34.39,
+        33.99,
+        33.99,
+        34.28,
+        34.28,
+        34.08,
+        34.08
+      ],
+      "area_allocation_proxies": [
+        0.05,
+        0.05,
+        0.1,
+        0.15,
+        0.075,
+        0.075,
+        0.045,
+        0.045,
+        0.1,
+        0.1,
+        0.065,
+        0.065
+      ],
+      "region_order": [
+        "left_chest",
+        "right_chest",
+        "back",
+        "pelvis",
+        "left_upper_arm",
+        "right_upper_arm",
+        "left_lower_arm",
+        "right_lower_arm",
+        "left_thigh",
+        "right_thigh",
+        "left_lower_leg",
+        "right_lower_leg"
+      ]
+    },
+    "device": {
+      "cell_capacity_wh": 60.0,
+      "cell_mass_kg": 0.25,
+      "cell_cost": 10.0,
+      "pv_rating_w": 20.0,
+      "pv_mass_kg": 0.2,
+      "pv_cost": 20.0,
+      "base_mass_kg": 0.5,
+      "base_cost": 150.0,
+      "base_power_w": 5.0,
+      "rated_powers_w": [
+        9.0,
+        9.0,
+        18.0,
+        18.0,
+        15.0,
+        15.0,
+        9.0,
+        9.0,
+        18.0,
+        18.0,
+        15.0,
+        15.0
+      ],
+      "efficiencies": [
+        0.98,
+        0.98,
+        1.0,
+        1.0,
+        0.75,
+        0.75,
+        0.68,
+        0.68,
+        0.82,
+        0.82,
+        0.65,
+        0.65
+      ],
+      "equipment_power_w": 18.0,
+      "equipment_mass_kg": 0.2,
+      "equipment_cost": 25.0,
+      "equipment_available": true,
+      "voltage_v": 10.8,
+      "heat_capacity_j_per_k": 275.0,
+      "thermal_resistance_k_per_w": 3.0,
+      "max_discharge_w": 60.0,
+      "max_charge_w": 30.0,
+      "bus_limit_w": 200.0
+    },
+    "garments": [
+      {
+        "id": 0,
+        "name": "a_down_jumpsuit",
+        "clothing_resistance": 0.39215,
+        "heating_pad_locations": [
+          "left_chest",
+          "right_chest",
+          "back",
+          "pelvis",
+          "left_upper_arm",
+          "right_upper_arm",
+          "left_lower_arm",
+          "right_lower_arm",
+          "left_thigh",
+          "right_thigh",
+          "left_lower_leg",
+          "right_lower_leg"
+        ],
+        "mask": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "mass_kg": 1.5,
+        "cost": 800.0,
+        "mass_and_cost_include_heating_pads": true
+      },
+      {
+        "id": 1,
+        "name": "b_fleece_jumpsuit",
+        "clothing_resistance": 0.1147,
+        "heating_pad_locations": [
+          "left_chest",
+          "right_chest",
+          "back",
+          "pelvis",
+          "left_upper_arm",
+          "right_upper_arm",
+          "left_lower_arm",
+          "right_lower_arm",
+          "left_thigh",
+          "right_thigh",
+          "left_lower_leg",
+          "right_lower_leg"
+        ],
+        "mask": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "mass_kg": 1.0,
+        "cost": 600.0,
+        "mass_and_cost_include_heating_pads": true
+      },
+      {
+        "id": 2,
+        "name": "c_down_top",
+        "clothing_resistance": 0.31,
+        "heating_pad_locations": [
+          "left_chest",
+          "right_chest",
+          "back",
+          "pelvis",
+          "left_upper_arm",
+          "right_upper_arm",
+          "left_lower_arm",
+          "right_lower_arm"
+        ],
+        "mask": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mass_kg": 0.7,
+        "cost": 350.0,
+        "mass_and_cost_include_heating_pads": true
+      },
+      {
+        "id": 3,
+        "name": "d_fleece_top",
+        "clothing_resistance": 0.0527,
+        "heating_pad_locations": [
+          "left_chest",
+          "right_chest",
+          "back",
+          "pelvis",
+          "left_upper_arm",
+          "right_upper_arm",
+          "left_lower_arm",
+          "right_lower_arm"
+        ],
+        "mask": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mass_kg": 0.5,
+        "cost": 250.0,
+        "mass_and_cost_include_heating_pads": true
+      }
+    ],
+    "settings": {
+      "dt_hours": 0.2,
+      "horizon_steps": 70,
+      "soc_safe": 0.15,
+      "filter_window_h": 0.2,
+      "lambda_deg": 0.1,
+      "lambda_soc": 100.0,
+      "equipment_on_c": 0.0,
+      "equipment_off_c": 5.0,
+      "constraint_tolerance": 1e-09,
+      "solver_tolerance": 1e-07,
+      "soc_min": 0.05
+    },
+    "evaluation": {
+      "balance_tolerance_wh": 1e-08,
+      "time_tolerance_hours": 1e-09
+    },
+    "max_battery_cells": 30,
+    "max_pv_units": 8,
+    "priority": [
+      "mass",
+      "cost"
+    ],
+    "fixed_configuration": [
+      1,
+      0,
+      0
+    ],
+    "forecast_mode": "persistence",
+    "source_files": {
+      "subject": "/Users/hong/Workspace/BGEMS-new/data/systemconf/subject.json",
+      "scenario_profiles": "/Users/hong/Workspace/BGEMS-new/data/systemconf/scenario_profiles.json",
+      "components": "/Users/hong/Workspace/BGEMS-new/data/systemconf/components.json"
+    },
+    "comparison": {
+      "enabled": false,
+      "design_manifest": null
+    }
+  },
+  "config_sources": {
+    "subject": "/Users/hong/Workspace/BGEMS-new/data/systemconf/subject.json",
+    "scenario_profiles": "/Users/hong/Workspace/BGEMS-new/data/systemconf/scenario_profiles.json",
+    "components": "/Users/hong/Workspace/BGEMS-new/data/systemconf/components.json"
+  },
+  "started_utc": "2026-10-05T07:33:03.630386+00:00",
+  "source_sha256": {
+    "/Users/hong/Workspace/BGEMS-new/data/systemconf/components.json": "48aeff7a0b4ad91c33e5c356a2212c2dc71011dcd635e07f3070b81a1fa0002a",
+    "/Users/hong/Workspace/BGEMS-new/data/systemconf/scenario_profiles.json": "782d541362ebc5584dcbce3bb7190db7f6ccab61f16768d321c5125f2e992cbd",
+    "/Users/hong/Workspace/BGEMS-new/data/systemconf/subject.json": "61de6c8b2e210e6e065ce943499dc48e0d91a542b2a9e180e7cf2f6da7da0d26",
+    "/Users/hong/Workspace/BGEMS-new/data/weather/pv/Qinling_Station_2026-02-11.csv": "618973285a08812339242c6c07cc92cf1041501e77ea39e26f83c2ce7e47bc7f",
+    "/Users/hong/Workspace/BGEMS-new/data/weather/temperature/Qinling_Station_2026-02-11.csv": "aa5b64edc2eb51f0d21442b0002431a2cfb267631e7ff069edd40e4f34b9bcf8",
+    "/Users/hong/Workspace/BGEMS-new/src/__init__.py": "d292054b521242a0f419c3c621ad0e6fa6337ed1a9082e92c42247d863fba2c2",
+    "/Users/hong/Workspace/BGEMS-new/src/configuration.py": "d1173ee74a8e378434e85df15607e45941a69f3887efd127dfa100cf676c2513",
+    "/Users/hong/Workspace/BGEMS-new/src/evaluation.py": "b5d87a2758ed52f07e3f3908a00c863659c1fd656839ae5b132e0ed08cf42157",
+    "/Users/hong/Workspace/BGEMS-new/src/inputs.py": "8dedde5558814407aceb254e67a2bcfcf50c28fabefe35a23a2717e27ad678b1",
+    "/Users/hong/Workspace/BGEMS-new/src/modeling.py": "225acad5d69e466181fcd59d6a29733fe2bca6648becd3a74d5e23006e6dc1cd",
+    "/Users/hong/Workspace/BGEMS-new/src/operation.py": "89b4ea321cf36ebd084418a8ebeea414050837f419048c63ac50710348585834",
+    "/Users/hong/Workspace/BGEMS-new/src/run.py": "6c73e47bf0ea7adf0e0ea44ae26f5157df2fe462e4eb503ff2e92aaa32dab141",
+    "/Users/hong/Workspace/BGEMS-new/src/weather.py": "27cb601d5855f6a6aaa2d6d7e3ee56974af2fcd275b1296b241d7d3414cdbcdb"
+  },
+  "python": "3.13.13",
+  "numpy": "2.2.6",
+  "scipy": "1.17.1",
+  "forecast_mode": "persistence",
+  "service_definition": "whole_body_total_heat_v1",
+  "priority": [
+    "mass",
+    "cost"
+  ],
+  "weather_semantics": {
+    "temperature": "sample_hold",
+    "pv": "interval_end_mean"
+  },
+  "weather_sample_hours": {
+    "temperature": 1.0,
+    "pv": 1.0
+  }
+}

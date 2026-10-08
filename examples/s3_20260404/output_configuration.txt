@@ -1,0 +1,7 @@
+status: failed
+subject_height_cm: 175
+subject_weight_kg: 70.0
+subject_age_years: 30
+subject_bmi: 22.86
+subject_bsa_m2: 1.844
+selected_configuration: none
