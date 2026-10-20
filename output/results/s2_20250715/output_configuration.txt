@@ -1,0 +1,4 @@
+Scenario: Muztagh Ata mountaineering
+Design status: selected
+Selected: (7, 1, 0)
+Completed controllers: 4/4

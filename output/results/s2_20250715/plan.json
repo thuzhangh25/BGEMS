@@ -1,0 +1,22 @@
+{
+  "missions": [
+    {
+      "scenario_type": 2,
+      "date": "2025-07-15",
+      "duration_h": 12.0,
+      "candidate_count": 960,
+      "configuration": null,
+      "controllers": [
+        "rbc",
+        "pid",
+        "tacs",
+        "rhc"
+      ]
+    }
+  ],
+  "unperturbed_controller_runs_at_most": 4,
+  "mc_samples": 0,
+  "mc_controller_runs": 0,
+  "candidate_controller_runs": 0,
+  "weather_acquisition": false
+}

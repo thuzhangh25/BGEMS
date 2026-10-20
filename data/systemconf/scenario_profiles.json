@@ -1,0 +1,281 @@
+{
+  "case1": {
+    "scenario_type": 1,
+    "display_name": "Harbin recreational skiing",
+    "category": "short-duration skiing",
+    "weather_location": "Maoershan Ski Resort",
+    "timezone": "Asia/Shanghai",
+    "mission_date": "2026-01-01",
+    "local_start_time": "09:00",
+    "initial_state": {
+      "soc": 1.0
+    },
+    "weather": {
+      "temperature_sample_hours": 1.0,
+      "pv_sample_hours": 1.0,
+      "pv_reference_rating_w": 100.0,
+      "temperature_filename_template": "Maoershan_Ski_Resort_{date}_mission.csv",
+      "pv_filename_template": "Maoershan_Ski_Resort_{date}_mission.csv"
+    },
+    "backpack": {
+      "included": false,
+      "equipment_heater_installed": false,
+      "max_pv_units": 0
+    },
+    "search": {
+      "max_battery_units": 40,
+      "max_pv_units": 0,
+      "preference": "lightweight",
+      "endurance_multiplier": 1.0
+    },
+    "operation": {
+      "step_h": 0.1,
+      "horizon_h": 6.0,
+      "soc_min": 0.05,
+      "soc_safe": 0.15,
+      "lambda_deg": 0.1,
+      "lambda_soc": 100.0,
+      "solver_tolerance": 1e-07,
+      "constraint_tolerance": 1e-08,
+      "forecast_mode": "persistence"
+    },
+    "evaluation": {
+      "balance_tolerance_wh": 1e-07,
+      "time_tolerance_hours": 1e-09
+    },
+    "phases": [
+      {
+        "label": "Initialization",
+        "start_h": 0.0,
+        "end_h": 0.5,
+        "met": 1.0
+      },
+      {
+        "label": "Gondola ascent",
+        "start_h": 0.5,
+        "end_h": 0.7,
+        "met": 1.2
+      },
+      {
+        "label": "High-speed descent",
+        "start_h": 0.7,
+        "end_h": 1.2,
+        "met": 5.5
+      },
+      {
+        "label": "Queue waiting",
+        "start_h": 1.2,
+        "end_h": 1.4,
+        "met": 1.1
+      },
+      {
+        "label": "High-speed descent",
+        "start_h": 1.4,
+        "end_h": 1.9,
+        "met": 5.5
+      },
+      {
+        "label": "Queue waiting",
+        "start_h": 1.9,
+        "end_h": 2.1,
+        "met": 1.1
+      },
+      {
+        "label": "High-speed descent",
+        "start_h": 2.1,
+        "end_h": 2.6,
+        "met": 5.5
+      },
+      {
+        "label": "Chair lift",
+        "start_h": 2.6,
+        "end_h": 2.8,
+        "met": 1.2
+      },
+      {
+        "label": "Final descent",
+        "start_h": 2.8,
+        "end_h": 3.0,
+        "met": 4.0
+      }
+    ]
+  },
+  "case2": {
+    "scenario_type": 2,
+    "display_name": "Muztagh Ata mountaineering",
+    "category": "long-duration mountaineering",
+    "weather_location": "Muztagh Ata",
+    "timezone": "Asia/Shanghai",
+    "mission_date": "2025-07-15",
+    "local_start_time": "06:00",
+    "initial_state": {
+      "soc": 1.0
+    },
+    "weather": {
+      "temperature_sample_hours": 1.0,
+      "pv_sample_hours": 1.0,
+      "pv_reference_rating_w": 100.0,
+      "temperature_filename_template": "Muztagh_Ata_{date}_mission.csv",
+      "pv_filename_template": "Muztagh_Ata_{date}_mission.csv"
+    },
+    "backpack": {
+      "included": true,
+      "equipment_heater_installed": true,
+      "max_pv_units": 5
+    },
+    "search": {
+      "max_battery_units": 40,
+      "max_pv_units": 5,
+      "preference": "comfort",
+      "endurance_multiplier": 1.1
+    },
+    "operation": {
+      "step_h": 0.1,
+      "horizon_h": 6.0,
+      "soc_min": 0.05,
+      "soc_safe": 0.15,
+      "lambda_deg": 0.1,
+      "lambda_soc": 100.0,
+      "solver_tolerance": 1e-07,
+      "constraint_tolerance": 1e-08,
+      "forecast_mode": "persistence"
+    },
+    "evaluation": {
+      "balance_tolerance_wh": 1e-07,
+      "time_tolerance_hours": 1e-09
+    },
+    "phases": [
+      {
+        "label": "Initialization",
+        "start_h": 0.0,
+        "end_h": 2.0,
+        "met": 1.0
+      },
+      {
+        "label": "Approach hike",
+        "start_h": 2.0,
+        "end_h": 5.0,
+        "met": 3.5
+      },
+      {
+        "label": "Steep ascent",
+        "start_h": 5.0,
+        "end_h": 7.0,
+        "met": 5.5
+      },
+      {
+        "label": "Sustained climbing",
+        "start_h": 7.0,
+        "end_h": 8.0,
+        "met": 6.0
+      },
+      {
+        "label": "Summit rest / photo",
+        "start_h": 8.0,
+        "end_h": 10.0,
+        "met": 1.5
+      },
+      {
+        "label": "Technical descent",
+        "start_h": 10.0,
+        "end_h": 12.0,
+        "met": 4.0
+      }
+    ]
+  },
+  "case3": {
+    "scenario_type": 3,
+    "display_name": "Qinling indoor work",
+    "category": "indoor station work",
+    "weather_location": "Qinling Indoor",
+    "timezone": "Asia/Shanghai",
+    "mission_date": "2025-07-01",
+    "local_start_time": "08:00",
+    "initial_state": {
+      "soc": 1.0
+    },
+    "weather": {
+      "temperature_sample_hours": 0.5,
+      "pv_sample_hours": 1.0,
+      "pv_reference_rating_w": 100.0,
+      "temperature_filename_template": "Qinling_Indoor_{date}_mission.csv",
+      "pv_filename_template": "Qinling_Indoor_{date}_mission.csv"
+    },
+    "backpack": {
+      "included": false,
+      "equipment_heater_installed": false,
+      "max_pv_units": 0
+    },
+    "search": {
+      "max_battery_units": 40,
+      "max_pv_units": 0,
+      "preference": "balanced",
+      "endurance_multiplier": 1.1
+    },
+    "operation": {
+      "step_h": 0.1,
+      "horizon_h": 6.0,
+      "soc_min": 0.05,
+      "soc_safe": 0.15,
+      "lambda_deg": 0.1,
+      "lambda_soc": 100.0,
+      "solver_tolerance": 1e-07,
+      "constraint_tolerance": 1e-08,
+      "forecast_mode": "persistence"
+    },
+    "evaluation": {
+      "balance_tolerance_wh": 1e-07,
+      "time_tolerance_hours": 1e-09
+    },
+    "phases": [
+      {
+        "label": "Initialization",
+        "start_h": 0.0,
+        "end_h": 1.0,
+        "met": 1.0
+      },
+      {
+        "label": "Breakfast",
+        "start_h": 1.0,
+        "end_h": 5.0,
+        "met": 1.5
+      },
+      {
+        "label": "Research Work",
+        "start_h": 5.0,
+        "end_h": 6.0,
+        "met": 1.8
+      },
+      {
+        "label": "Lunch",
+        "start_h": 6.0,
+        "end_h": 9.0,
+        "met": 1.5
+      },
+      {
+        "label": "Research Work",
+        "start_h": 9.0,
+        "end_h": 10.0,
+        "met": 1.8
+      },
+      {
+        "label": "Exercise",
+        "start_h": 10.0,
+        "end_h": 11.0,
+        "met": 4.0
+      },
+      {
+        "label": "Dinner",
+        "start_h": 11.0,
+        "end_h": 12.0,
+        "met": 1.5
+      },
+      {
+        "label": "Evening Activity",
+        "start_h": 12.0,
+        "end_h": 14.0,
+        "met": 1.3
+      }
+    ]
+  }
+}

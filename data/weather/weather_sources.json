@@ -1,0 +1,124 @@
+{
+  "project_temperature_correction": false,
+  "path_convention": "All paths are relative to the package root.",
+  "sampling": {
+    "temperature": "Forward sample hold with overlap-weighted interval means.",
+    "pv": "Preceding-hour means; integrate source interval overlaps, not linear interpolation."
+  },
+  "records": [
+    {
+      "scenario_type": 1,
+      "date": "2026-01-01",
+      "timezone": "Asia/Shanghai",
+      "temperature": {
+        "prepared": {
+          "path": "data/weather/temperature/Maoershan_Ski_Resort_2026-01-01_mission.csv",
+          "bytes": 1212,
+          "sha256": "0ac9f6555ebb6afb210050add6c7af1ddeab1ff540b105e1e677e32bf5af65d1"
+        },
+        "source": {
+          "path": "data/weather/source_records/maoershan_ski_resort_2026-01-01_hourly_temperature.csv",
+          "bytes": 645,
+          "sha256": "ded40711c8ce1f66bc6299ad265f930964d5d165199e3d6dee0b2d3ab628b0c4"
+        },
+        "project_offset_c": 0.0,
+        "kind": "outdoor_reanalysis",
+        "sample_duration_hours": 1.0
+      },
+      "pv": {
+        "prepared": {
+          "path": "data/weather/pv/Maoershan_Ski_Resort_2026-01-01_mission.csv",
+          "bytes": 1494,
+          "sha256": "4501db19ac4ae52f8b37bc850311d2125d35d18b6f7916068c78672822a78225"
+        },
+        "source": {
+          "path": "data/weather/source_records/maoershan_ski_resort_2026-01-01_hourly_pv.csv",
+          "bytes": 1019,
+          "sha256": "5dad259659a52e365cff6d5ba6812f3e70d8cbc4222bb0c305bb9afb7211501a"
+        },
+        "reference_rating_w": 100.0,
+        "conversion_already_applied": "shortwave_radiation W/m2 / 1000 W/m2 * 100 W * 0.95 system efficiency",
+        "semantics": "interval_end_mean",
+        "hardware_enabled": false,
+        "additional_efficiency_scaling": false
+      }
+    },
+    {
+      "scenario_type": 2,
+      "date": "2025-07-15",
+      "timezone": "Asia/Shanghai",
+      "temperature": {
+        "prepared": {
+          "path": "data/weather/temperature/Muztagh_Ata_2025-07-15_mission.csv",
+          "bytes": 1212,
+          "sha256": "421c5991be5c3865c10dbe6dcd3f52ba268b4159be4e0235f17e66f242865716"
+        },
+        "source": {
+          "path": "data/weather/temperature/Muztagh_Ata_2025-07-15_source.json",
+          "bytes": 1822,
+          "sha256": "d33bee37cbcb5b344c1c887459a3df758dd0577a23d69d455cb8d45a8e8a7f61"
+        },
+        "project_offset_c": 0.0,
+        "kind": "outdoor_reanalysis",
+        "sample_duration_hours": 1.0
+      },
+      "pv": {
+        "prepared": {
+          "path": "data/weather/pv/Muztagh_Ata_2025-07-15_mission.csv",
+          "bytes": 1521,
+          "sha256": "128a691f80f01c7462c5f889f6fb8aabbd65cf69c56e14232d59ba978bf5ad8a"
+        },
+        "source": {
+          "path": "data/weather/source_records/muztagh_ata_2025-07-15_hourly_pv.csv",
+          "bytes": 1080,
+          "sha256": "d33076c04f9ce77270b33af5f859663898413cc5b77a40a3e39d18e3685133e7"
+        },
+        "reference_rating_w": 100.0,
+        "conversion_already_applied": "shortwave_radiation W/m2 / 1000 W/m2 * 100 W * 0.95 system efficiency",
+        "semantics": "interval_end_mean",
+        "hardware_enabled": true,
+        "additional_efficiency_scaling": false
+      }
+    },
+    {
+      "scenario_type": 3,
+      "date": "2025-07-01",
+      "timezone": "Asia/Shanghai",
+      "temperature": {
+        "prepared": {
+          "path": "data/weather/temperature/Qinling_Indoor_2025-07-01_mission.csv",
+          "bytes": 2872,
+          "sha256": "5a4983fc2ef00d7e8fb4b4b67bed235e41358273de5d41576ead4f525c6aaec2"
+        },
+        "source": {
+          "type": "synthetic_indoor_setpoint",
+          "formula": "15 + 0.5*sin(2*pi*local_hour/24 - pi/2)",
+          "setpoint_c": 15.0,
+          "amplitude_c": 0.5,
+          "measured": false,
+          "building_outdoor_boundary": "separate Path B input; not used as wearable air"
+        },
+        "project_offset_c": 0.0,
+        "kind": "synthetic_indoor",
+        "sample_duration_hours": 0.5
+      },
+      "pv": {
+        "prepared": {
+          "path": "data/weather/pv/Qinling_Indoor_2025-07-01_mission.csv",
+          "bytes": 1464,
+          "sha256": "5c5bb456c5fac0ee665f098594667c1b33e248371ca6b2d509d38b995e131f1d"
+        },
+        "source": {
+          "path": "data/weather/source_records/qinling_station_antarctic_2025-07-01_hourly_pv.csv",
+          "bytes": 937,
+          "sha256": "7861272a30d6d696a445bbfab6ef2104521ad7603bbd9ac2f365d8cb22bcb9e3"
+        },
+        "reference_rating_w": 100.0,
+        "conversion_already_applied": "shortwave_radiation W/m2 / 1000 W/m2 * 100 W * 0.95 system efficiency",
+        "semantics": "interval_end_mean",
+        "hardware_enabled": false,
+        "additional_efficiency_scaling": false
+      }
+    }
+  ]
+}

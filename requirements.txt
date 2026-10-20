@@ -1,0 +1,10 @@
+# Verified Python 3.13 numerical and plotting environment.
+numpy==2.2.6
+# The retained weather API reader uses pandas 2 nanosecond timestamps.
+pandas==2.3.3
+requests==2.33.1
+matplotlib==3.10.9
+# HiGHS solves the Stage 3 linear programs with piecewise-linear penalties.
+scipy==1.17.1
+highspy==1.15.1
+pythermalcomfort==4.6.0

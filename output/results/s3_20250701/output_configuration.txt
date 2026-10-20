@@ -1,0 +1,4 @@
+Scenario: Qinling indoor work
+Design status: selected
+Selected: (2, 0, 2)
+Completed controllers: 4/4

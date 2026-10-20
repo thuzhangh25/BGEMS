@@ -1,0 +1,89 @@
+{
+  "schema": "bgems-mission-v1",
+  "scenario_type": 1,
+  "date": "2026-01-01",
+  "mode": "search",
+  "candidate_count": 160,
+  "design_admissible_count": 37,
+  "pareto_configurations": [
+    [
+      4,
+      0,
+      0
+    ]
+  ],
+  "selected": {
+    "configuration": [
+      4,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      3.0,
+      990.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 3.0,
+    "cost_usd": 990.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -42.540376037025084,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -91.02876163981557,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 291.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  "design_status": "selected",
+  "controllers": [
+    "rbc",
+    "pid",
+    "tacs",
+    "rhc"
+  ],
+  "outcomes": {
+    "scheduled_runs": 4,
+    "executed_runs": 4,
+    "not_run": 0,
+    "completed_runs": 4,
+    "failed_runs": 0,
+    "invalid_runs": 0,
+    "completion_rate": 1.0
+  },
+  "optimizer_calls": 69,
+  "configuration_optimizer_calls": 0,
+  "evaluation_optimizer_calls": 0,
+  "source_hashes": {
+    "data/systemconf/components.json": "5c87fb6cc02655e3e406e2239400979c3f6ea828c1d4eccfeb493f23d2ce3aad",
+    "data/systemconf/scenario_profiles.json": "851d7d1629c284d27de6da128ac8cb474d253252ca827b202c5c62481c3b3f4e",
+    "data/systemconf/subject.json": "61de6c8b2e210e6e065ce943499dc48e0d91a542b2a9e180e7cf2f6da7da0d26",
+    "data/weather/pv/Maoershan_Ski_Resort_2026-01-01_mission.csv": "4501db19ac4ae52f8b37bc850311d2125d35d18b6f7916068c78672822a78225",
+    "data/weather/temperature/Maoershan_Ski_Resort_2026-01-01_mission.csv": "0ac9f6555ebb6afb210050add6c7af1ddeab1ff540b105e1e677e32bf5af65d1",
+    "src/__init__.py": "d292054b521242a0f419c3c621ad0e6fa6337ed1a9082e92c42247d863fba2c2",
+    "src/configuration.py": "4be61e53064d4ef280ec2403e842b52ce9269f096aafb225fd3d467e40020ab6",
+    "src/evaluation.py": "33fbbf4ef92b828d6f5945bf58e8bbe2cccf289d9f5d2a5597da1c0bdf8316c3",
+    "src/inputs.py": "2716579c9e84c613042ffd1fef73e2f7ff85a50d4734c975b663ed5c1f81f7a2",
+    "src/modeling.py": "42d007ca415d1f3dc92f603c28003593ec79b898fffa4594e225766fae307767",
+    "src/operation.py": "4e072a73e08f436fb9570c920de44424fbaf9d75a7216f533fb12856f51de0d0",
+    "src/run.py": "7bc0b23301d5c2953ae3231101063c085b724c7779c4b852ad7aa599feb7c839",
+    "src/weather.py": "76da3229a6dd8fe9b94a6631f77524ac00a106b2b0bc92a1f351659d83d7dd0d"
+  },
+  "timing": {
+    "demand_preparation_seconds": 0.00025879201712086797,
+    "configuration_seconds": 0.004159083007834852,
+    "weather_seconds": 0.005578583019087091,
+    "provenance_seconds": 0.0009069590014405549,
+    "operation_seconds": 0.10858983203070238,
+    "evaluation_seconds": 0.00459766699350439,
+    "io_seconds": 0.00483204101328738,
+    "total_seconds": 0.12909854200552218
+  }
+}

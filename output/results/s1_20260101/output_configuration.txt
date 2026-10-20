@@ -1,0 +1,4 @@
+Scenario: Harbin recreational skiing
+Design status: selected
+Selected: (4, 0, 0)
+Completed controllers: 4/4

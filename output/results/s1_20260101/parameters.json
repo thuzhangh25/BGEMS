@@ -1,0 +1,385 @@
+{
+  "scenario": {
+    "scenario_type": 1,
+    "name": "Harbin recreational skiing",
+    "category": "short-duration skiing",
+    "weather_location": "Maoershan Ski Resort",
+    "timezone": "Asia/Shanghai",
+    "start": "2026-01-01T09:00:00+08:00",
+    "phases": [
+      [
+        "Initialization",
+        0.5,
+        1.0
+      ],
+      [
+        "Gondola ascent",
+        0.2,
+        1.2
+      ],
+      [
+        "High-speed descent",
+        0.5,
+        5.5
+      ],
+      [
+        "Queue waiting",
+        0.2,
+        1.1
+      ],
+      [
+        "High-speed descent",
+        0.5,
+        5.5
+      ],
+      [
+        "Queue waiting",
+        0.2,
+        1.1
+      ],
+      [
+        "High-speed descent",
+        0.5,
+        5.5
+      ],
+      [
+        "Chair lift",
+        0.2,
+        1.2
+      ],
+      [
+        "Final descent",
+        0.2,
+        4.0
+      ]
+    ],
+    "air_resistance": 0.109,
+    "initial_state": {
+      "soc": 1.0
+    },
+    "temperature_files": "data/weather/temperature/Maoershan_Ski_Resort_2026-01-01_mission.csv",
+    "pv_files": "data/weather/pv/Maoershan_Ski_Resort_2026-01-01_mission.csv",
+    "temperature_sample_hours": 1.0,
+    "pv_sample_hours": 1.0,
+    "pv_reference_rating_w": 100.0,
+    "backpack_included": false,
+    "equipment_heater_installed": false
+  },
+  "person": {
+    "subject_id": "reference_adult",
+    "height_cm": 175.0,
+    "weight_kg": 70.0,
+    "age_years": 30,
+    "sex": "male",
+    "weights": [
+      0.105,
+      0.105,
+      0.185,
+      0.297,
+      0.032,
+      0.032,
+      0.017,
+      0.017,
+      0.07,
+      0.07,
+      0.035,
+      0.035
+    ],
+    "skin_temperatures_c": [
+      34.76,
+      34.76,
+      34.67,
+      34.92,
+      34.39,
+      34.39,
+      33.99,
+      33.99,
+      34.28,
+      34.28,
+      34.08,
+      34.08
+    ],
+    "area_allocation_proxies": [
+      0.05,
+      0.05,
+      0.1,
+      0.15,
+      0.075,
+      0.075,
+      0.045,
+      0.045,
+      0.1,
+      0.1,
+      0.065,
+      0.065
+    ],
+    "region_order": [
+      "left_chest",
+      "right_chest",
+      "back",
+      "pelvis",
+      "left_upper_arm",
+      "right_upper_arm",
+      "left_lower_arm",
+      "right_lower_arm",
+      "left_thigh",
+      "right_thigh",
+      "left_lower_leg",
+      "right_lower_leg"
+    ]
+  },
+  "device": {
+    "battery_unit_capacity_wh": 60.0,
+    "battery_unit_mass_kg": 0.25,
+    "battery_unit_cost": 10.0,
+    "pv_rating_w": 20.0,
+    "pv_mass_kg": 0.2,
+    "pv_cost": 20.0,
+    "base_mass_kg": 0.5,
+    "base_cost": 150.0,
+    "base_power_w": 5.0,
+    "rated_powers_w": [
+      9.0,
+      9.0,
+      18.0,
+      18.0,
+      15.0,
+      15.0,
+      9.0,
+      9.0,
+      18.0,
+      18.0,
+      15.0,
+      15.0
+    ],
+    "efficiencies": [
+      0.98,
+      0.98,
+      1.0,
+      1.0,
+      0.75,
+      0.75,
+      0.68,
+      0.68,
+      0.82,
+      0.82,
+      0.65,
+      0.65
+    ],
+    "equipment_power_w": 18.0,
+    "equipment_mass_kg": 0.2,
+    "equipment_cost": 25.0,
+    "equipment_available": false,
+    "voltage_v": 10.8,
+    "max_discharge_w": 60.0,
+    "max_charge_w": 30.0,
+    "bus_limit_w": 200.0
+  },
+  "garments": [
+    {
+      "id": 0,
+      "name": "a_down_jumpsuit",
+      "clothing_resistance": 0.39215,
+      "heating_pad_locations": [
+        "left_chest",
+        "right_chest",
+        "back",
+        "pelvis",
+        "left_upper_arm",
+        "right_upper_arm",
+        "left_lower_arm",
+        "right_lower_arm",
+        "left_thigh",
+        "right_thigh",
+        "left_lower_leg",
+        "right_lower_leg"
+      ],
+      "mask": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mass_kg": 1.5,
+      "cost": 800.0,
+      "mass_and_cost_include_heating_pads": true
+    },
+    {
+      "id": 1,
+      "name": "b_fleece_jumpsuit",
+      "clothing_resistance": 0.1147,
+      "heating_pad_locations": [
+        "left_chest",
+        "right_chest",
+        "back",
+        "pelvis",
+        "left_upper_arm",
+        "right_upper_arm",
+        "left_lower_arm",
+        "right_lower_arm",
+        "left_thigh",
+        "right_thigh",
+        "left_lower_leg",
+        "right_lower_leg"
+      ],
+      "mask": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mass_kg": 1.0,
+      "cost": 600.0,
+      "mass_and_cost_include_heating_pads": true
+    },
+    {
+      "id": 2,
+      "name": "c_down_top",
+      "clothing_resistance": 0.31,
+      "heating_pad_locations": [
+        "left_chest",
+        "right_chest",
+        "back",
+        "pelvis",
+        "left_upper_arm",
+        "right_upper_arm",
+        "left_lower_arm",
+        "right_lower_arm"
+      ],
+      "mask": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mass_kg": 0.7,
+      "cost": 350.0,
+      "mass_and_cost_include_heating_pads": true
+    },
+    {
+      "id": 3,
+      "name": "d_fleece_top",
+      "clothing_resistance": 0.0527,
+      "heating_pad_locations": [
+        "left_chest",
+        "right_chest",
+        "back",
+        "pelvis",
+        "left_upper_arm",
+        "right_upper_arm",
+        "left_lower_arm",
+        "right_lower_arm"
+      ],
+      "mask": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mass_kg": 0.5,
+      "cost": 250.0,
+      "mass_and_cost_include_heating_pads": true
+    }
+  ],
+  "settings": {
+    "dt_hours": 0.1,
+    "horizon_steps": 60,
+    "constraint_tolerance": 1e-08,
+    "soc_safe": 0.15,
+    "lambda_deg": 0.1,
+    "lambda_soc": 100.0,
+    "soc_min": 0.05,
+    "solver_tolerance": 1e-07,
+    "forecast_mode": "persistence"
+  },
+  "evaluation": {
+    "balance_tolerance_wh": 1e-07,
+    "time_tolerance_hours": 1e-09
+  },
+  "max_battery_units": 40,
+  "max_pv_units": 0,
+  "preference": "lightweight",
+  "endurance_multiplier": 1.0,
+  "controllers": {
+    "rbc": {
+      "cold_threshold": 0.3,
+      "comfort_threshold": 0.8
+    },
+    "pid": {
+      "kp": 100.0,
+      "ki": 15.0,
+      "kd": 5.0,
+      "setpoint": 0.9
+    },
+    "tacs": {
+      "base_threshold": 0.7,
+      "soc_factor": 0.2,
+      "after_chill_multiplier": 1.3,
+      "deadband": 0.05
+    },
+    "rhc": {
+      "pwl_segments": 8,
+      "priority_lock_tolerance": 1e-06,
+      "solve_time_limit_s": 3.0
+    }
+  },
+  "monte_carlo": {
+    "samples": 1000,
+    "seed": 42,
+    "step_h": 0.2,
+    "horizon_steps": 120,
+    "lambda_deg": 0.01,
+    "lambda_soc": 1000.0,
+    "temp_sigma_c": 3.0,
+    "met_sigma": 0.5,
+    "pv_alpha": 2.0,
+    "pv_beta": 3.0,
+    "event_probability_per_step": 0.03,
+    "event_drop_c": -10.0,
+    "temperature_bounds_c": [
+      -80.0,
+      60.0
+    ],
+    "met_bounds": [
+      0.1,
+      12.0
+    ]
+  },
+  "source_files": {
+    "subject": "data/systemconf/subject.json",
+    "scenario_profiles": "data/systemconf/scenario_profiles.json",
+    "components": "data/systemconf/components.json"
+  }
+}

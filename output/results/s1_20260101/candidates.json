@@ -1,0 +1,4802 @@
+[
+  {
+    "configuration": [
+      1,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      2.25,
+      960.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 2.25,
+    "cost_usd": 960.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": 128.45962396297492,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": 88.97123836018443,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 462.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      1,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      1.75,
+      760.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 1.75,
+    "cost_usd": 760.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": 197.38988767983048,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": 113.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 462.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      1,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      1.45,
+      510.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 1.45,
+    "cost_usd": 510.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": 86.154241011654,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": 46.27159575931101,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 264.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      1,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      1.25,
+      410.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 1.25,
+    "cost_usd": 410.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": 248.82348619566704,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": 47.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 264.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      2,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      2.5,
+      970.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 2.5,
+    "cost_usd": 970.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": 71.45962396297492,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": 28.97123836018443,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 405.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      2,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      2.0,
+      770.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 2.0,
+    "cost_usd": 770.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": 140.38988767983048,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": 53.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 405.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      2,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      1.7,
+      520.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 1.7,
+    "cost_usd": 520.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": 29.154241011653994,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -13.728404240688988,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 207.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      2,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      1.5,
+      420.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 1.5,
+    "cost_usd": 420.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": 191.82348619566704,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -13.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 207.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      3,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      2.75,
+      980.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 2.75,
+    "cost_usd": 980.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": 14.459623962974916,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -31.02876163981557,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 348.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      3,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      2.25,
+      780.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 2.25,
+    "cost_usd": 780.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": 83.38988767983048,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -7.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 348.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      3,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      1.95,
+      530.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 1.95,
+    "cost_usd": 530.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -27.845758988346006,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -73.72840424068899,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 150.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      3,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      1.75,
+      430.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 1.75,
+    "cost_usd": 430.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": 134.82348619566704,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -73.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 150.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      4,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      3.0,
+      990.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 3.0,
+    "cost_usd": 990.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -42.540376037025084,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -91.02876163981557,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 291.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      4,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      2.5,
+      790.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 2.5,
+    "cost_usd": 790.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": 26.38988767983048,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -67.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 291.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      4,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      2.2,
+      540.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 2.2,
+    "cost_usd": 540.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -84.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -133.72840424068897,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 93.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      4,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      2.0,
+      440.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 2.0,
+    "cost_usd": 440.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": 77.82348619566704,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -133.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 93.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      5,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      3.25,
+      1000.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 3.25,
+    "cost_usd": 1000.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -99.54037603702508,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -151.02876163981557,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 234.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      5,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      2.75,
+      800.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 2.75,
+    "cost_usd": 800.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -30.61011232016952,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -127.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 234.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      5,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      2.45,
+      550.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 2.45,
+    "cost_usd": 550.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -141.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -193.72840424068897,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 36.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      5,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      2.25,
+      450.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 2.25,
+    "cost_usd": 450.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": 20.823486195667044,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -193.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 36.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      6,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      3.5,
+      1010.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 3.5,
+    "cost_usd": 1010.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -156.54037603702508,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -211.02876163981557,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 177.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      6,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      3.0,
+      810.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 3.0,
+    "cost_usd": 810.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -87.61011232016952,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -187.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 177.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      6,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      2.7,
+      560.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 2.7,
+    "cost_usd": 560.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -198.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -253.72840424068897,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -21.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      6,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      2.5,
+      460.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 2.5,
+    "cost_usd": 460.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -36.176513804332956,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -253.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -21.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      7,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      3.75,
+      1020.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 3.75,
+    "cost_usd": 1020.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -213.54037603702508,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -271.02876163981557,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 120.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      7,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      3.25,
+      820.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 3.25,
+    "cost_usd": 820.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -144.61011232016952,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -247.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 120.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      7,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      2.95,
+      570.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 2.95,
+    "cost_usd": 570.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -255.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -313.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -78.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      7,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      2.75,
+      470.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 2.75,
+    "cost_usd": 470.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -93.17651380433296,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -313.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -78.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      8,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      4.0,
+      1030.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 4.0,
+    "cost_usd": 1030.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -270.5403760370251,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -331.02876163981557,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 63.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      8,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      3.5,
+      830.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 3.5,
+    "cost_usd": 830.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -201.61011232016952,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -307.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 63.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      8,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      3.2,
+      580.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 3.2,
+    "cost_usd": 580.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -312.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -373.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -135.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      8,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      3.0,
+      480.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 3.0,
+    "cost_usd": 480.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -150.17651380433296,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -373.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -135.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      9,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      4.25,
+      1040.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 4.25,
+    "cost_usd": 1040.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -327.5403760370251,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -391.02876163981557,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 6.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      9,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      3.75,
+      840.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 3.75,
+    "cost_usd": 840.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -258.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -367.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": 6.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      9,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      3.45,
+      590.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 3.45,
+    "cost_usd": 590.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -369.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -433.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -192.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      9,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      3.25,
+      490.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 3.25,
+    "cost_usd": 490.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -207.17651380433296,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -433.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -192.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      10,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      4.5,
+      1050.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 4.5,
+    "cost_usd": 1050.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -384.5403760370251,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -451.02876163981557,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -51.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      10,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      4.0,
+      850.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 4.0,
+    "cost_usd": 850.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -315.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -427.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -51.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      10,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      3.7,
+      600.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 3.7,
+    "cost_usd": 600.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -426.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -493.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -249.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      10,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      3.5,
+      500.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 3.5,
+    "cost_usd": 500.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -264.17651380433296,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -493.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -249.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      11,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      4.75,
+      1060.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 4.75,
+    "cost_usd": 1060.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -441.5403760370251,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -511.02876163981557,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -108.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      11,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      4.25,
+      860.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 4.25,
+    "cost_usd": 860.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -372.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -487.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -108.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      11,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      3.95,
+      610.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 3.95,
+    "cost_usd": 610.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -483.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -553.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -306.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      11,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      3.75,
+      510.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 3.75,
+    "cost_usd": 510.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -321.17651380433296,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -553.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -306.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      12,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      5.0,
+      1070.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 5.0,
+    "cost_usd": 1070.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -498.5403760370251,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -571.0287616398156,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -165.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      12,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      4.5,
+      870.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 4.5,
+    "cost_usd": 870.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -429.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -547.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -165.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      12,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      4.2,
+      620.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 4.2,
+    "cost_usd": 620.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -540.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -613.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -363.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      12,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      4.0,
+      520.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 4.0,
+    "cost_usd": 520.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -378.17651380433296,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -613.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -363.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      13,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      5.25,
+      1080.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 5.25,
+    "cost_usd": 1080.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -555.5403760370251,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -631.0287616398156,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -222.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      13,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      4.75,
+      880.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 4.75,
+    "cost_usd": 880.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -486.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -607.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -222.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      13,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      4.45,
+      630.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 4.45,
+    "cost_usd": 630.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -597.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -673.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -420.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      13,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      4.25,
+      530.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 4.25,
+    "cost_usd": 530.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -435.17651380433296,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -673.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -420.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      14,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      5.5,
+      1090.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 5.5,
+    "cost_usd": 1090.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -612.5403760370251,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -691.0287616398156,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -279.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      14,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      5.0,
+      890.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 5.0,
+    "cost_usd": 890.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -543.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -667.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -279.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      14,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      4.7,
+      640.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 4.7,
+    "cost_usd": 640.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -654.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -733.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -477.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      14,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      4.5,
+      540.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 4.5,
+    "cost_usd": 540.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -492.17651380433296,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -733.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -477.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      15,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      5.75,
+      1100.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 5.75,
+    "cost_usd": 1100.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -669.5403760370251,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -751.0287616398156,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -336.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      15,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      5.25,
+      900.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 5.25,
+    "cost_usd": 900.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -600.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -727.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -336.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      15,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      4.95,
+      650.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 4.95,
+    "cost_usd": 650.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -711.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -793.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -534.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      15,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      4.75,
+      550.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 4.75,
+    "cost_usd": 550.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -549.1765138043329,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -793.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -534.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      16,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      6.0,
+      1110.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 6.0,
+    "cost_usd": 1110.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -726.5403760370251,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -811.0287616398156,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -393.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      16,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      5.5,
+      910.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 5.5,
+    "cost_usd": 910.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -657.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -787.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -393.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      16,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      5.2,
+      660.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 5.2,
+    "cost_usd": 660.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -768.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -853.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -591.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      16,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      5.0,
+      560.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 5.0,
+    "cost_usd": 560.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -606.1765138043329,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -853.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -591.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      17,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      6.25,
+      1120.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 6.25,
+    "cost_usd": 1120.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -783.5403760370251,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -871.0287616398156,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -450.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      17,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      5.75,
+      920.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 5.75,
+    "cost_usd": 920.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -714.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -847.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -450.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      17,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      5.45,
+      670.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 5.45,
+    "cost_usd": 670.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -825.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -913.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -648.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      17,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      5.25,
+      570.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 5.25,
+    "cost_usd": 570.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -663.1765138043329,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -913.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -648.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      18,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      6.5,
+      1130.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 6.5,
+    "cost_usd": 1130.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -840.5403760370251,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -931.0287616398156,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -507.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      18,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      6.0,
+      930.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 6.0,
+    "cost_usd": 930.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -771.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -907.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -507.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      18,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      5.7,
+      680.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 5.7,
+    "cost_usd": 680.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -882.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -973.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -705.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      18,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      5.5,
+      580.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 5.5,
+    "cost_usd": 580.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -720.1765138043329,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -973.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -705.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      19,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      6.75,
+      1140.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 6.75,
+    "cost_usd": 1140.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -897.5403760370251,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -991.0287616398156,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -564.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      19,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      6.25,
+      940.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 6.25,
+    "cost_usd": 940.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -828.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -967.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -564.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      19,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      5.95,
+      690.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 5.95,
+    "cost_usd": 690.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -939.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -1033.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -762.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      19,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      5.75,
+      590.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 5.75,
+    "cost_usd": 590.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -777.1765138043329,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -1033.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -762.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      20,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      7.0,
+      1150.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 7.0,
+    "cost_usd": 1150.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -954.5403760370251,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -1051.0287616398155,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -621.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      20,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      6.5,
+      950.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 6.5,
+    "cost_usd": 950.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -885.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -1027.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -621.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      20,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      6.2,
+      700.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 6.2,
+    "cost_usd": 700.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -996.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -1093.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -819.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      20,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      6.0,
+      600.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 6.0,
+    "cost_usd": 600.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -834.1765138043329,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -1093.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -819.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      21,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      7.25,
+      1160.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 7.25,
+    "cost_usd": 1160.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1011.5403760370251,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -1111.0287616398155,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -678.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      21,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      6.75,
+      960.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 6.75,
+    "cost_usd": 960.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -942.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -1087.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -678.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      21,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      6.45,
+      710.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 6.45,
+    "cost_usd": 710.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1053.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -1153.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -876.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      21,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      6.25,
+      610.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 6.25,
+    "cost_usd": 610.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -891.1765138043329,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -1153.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -876.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      22,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      7.5,
+      1170.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 7.5,
+    "cost_usd": 1170.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1068.540376037025,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -1171.0287616398155,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -735.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      22,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      7.0,
+      970.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 7.0,
+    "cost_usd": 970.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -999.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -1147.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -735.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      22,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      6.7,
+      720.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 6.7,
+    "cost_usd": 720.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1110.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -1213.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -933.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      22,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      6.5,
+      620.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 6.5,
+    "cost_usd": 620.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -948.1765138043329,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -1213.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -933.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      23,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      7.75,
+      1180.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 7.75,
+    "cost_usd": 1180.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1125.540376037025,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -1231.0287616398155,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -792.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      23,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      7.25,
+      980.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 7.25,
+    "cost_usd": 980.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1056.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -1207.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -792.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      23,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      6.95,
+      730.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 6.95,
+    "cost_usd": 730.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1167.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -1273.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -990.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      23,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      6.75,
+      630.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 6.75,
+    "cost_usd": 630.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1005.1765138043329,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -1273.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -990.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      24,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      8.0,
+      1190.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 8.0,
+    "cost_usd": 1190.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1182.540376037025,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -1291.0287616398155,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -849.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      24,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      7.5,
+      990.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 7.5,
+    "cost_usd": 990.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1113.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -1267.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -849.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      24,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      7.2,
+      740.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 7.2,
+    "cost_usd": 740.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1224.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -1333.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1047.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      24,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      7.0,
+      640.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 7.0,
+    "cost_usd": 640.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1062.176513804333,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -1333.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1047.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      25,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      8.25,
+      1200.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 8.25,
+    "cost_usd": 1200.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1239.540376037025,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -1351.0287616398155,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -906.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      25,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      7.75,
+      1000.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 7.75,
+    "cost_usd": 1000.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1170.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -1327.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -906.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      25,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      7.45,
+      750.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 7.45,
+    "cost_usd": 750.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1281.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -1393.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1104.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      25,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      7.25,
+      650.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 7.25,
+    "cost_usd": 650.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1119.176513804333,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -1393.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1104.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      26,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      8.5,
+      1210.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 8.5,
+    "cost_usd": 1210.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1296.540376037025,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -1411.0287616398155,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -963.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      26,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      8.0,
+      1010.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 8.0,
+    "cost_usd": 1010.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1227.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -1387.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -963.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      26,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      7.7,
+      760.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 7.7,
+    "cost_usd": 760.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1338.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -1453.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1161.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      26,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      7.5,
+      660.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 7.5,
+    "cost_usd": 660.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1176.176513804333,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -1453.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1161.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      27,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      8.75,
+      1220.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 8.75,
+    "cost_usd": 1220.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1353.540376037025,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -1471.0287616398155,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1020.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      27,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      8.25,
+      1020.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 8.25,
+    "cost_usd": 1020.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1284.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -1447.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1020.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      27,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      7.95,
+      770.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 7.95,
+    "cost_usd": 770.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1395.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -1513.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1218.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      27,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      7.75,
+      670.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 7.75,
+    "cost_usd": 670.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1233.176513804333,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -1513.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1218.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      28,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      9.0,
+      1230.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 9.0,
+    "cost_usd": 1230.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1410.540376037025,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -1531.0287616398155,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1077.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      28,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      8.5,
+      1030.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 8.5,
+    "cost_usd": 1030.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1341.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -1507.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1077.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      28,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      8.2,
+      780.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 8.2,
+    "cost_usd": 780.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1452.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -1573.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1275.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      28,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      8.0,
+      680.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 8.0,
+    "cost_usd": 680.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1290.176513804333,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -1573.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1275.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      29,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      9.25,
+      1240.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 9.25,
+    "cost_usd": 1240.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1467.540376037025,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -1591.0287616398155,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1134.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      29,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      8.75,
+      1040.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 8.75,
+    "cost_usd": 1040.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1398.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -1567.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1134.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      29,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      8.45,
+      790.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 8.45,
+    "cost_usd": 790.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1509.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -1633.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1332.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      29,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      8.25,
+      690.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 8.25,
+    "cost_usd": 690.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1347.176513804333,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -1633.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1332.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      30,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      9.5,
+      1250.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 9.5,
+    "cost_usd": 1250.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1524.540376037025,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -1651.0287616398155,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1191.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      30,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      9.0,
+      1050.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 9.0,
+    "cost_usd": 1050.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1455.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -1627.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1191.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      30,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      8.7,
+      800.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 8.7,
+    "cost_usd": 800.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1566.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -1693.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1389.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      30,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      8.5,
+      700.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 8.5,
+    "cost_usd": 700.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1404.176513804333,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -1693.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1389.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      31,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      9.75,
+      1260.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 9.75,
+    "cost_usd": 1260.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1581.540376037025,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -1711.0287616398155,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1248.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      31,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      9.25,
+      1060.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 9.25,
+    "cost_usd": 1060.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1512.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -1687.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1248.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      31,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      8.95,
+      810.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 8.95,
+    "cost_usd": 810.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1623.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -1753.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1446.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      31,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      8.75,
+      710.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 8.75,
+    "cost_usd": 710.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1461.176513804333,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -1753.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1446.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      32,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      10.0,
+      1270.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 10.0,
+    "cost_usd": 1270.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1638.540376037025,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -1771.0287616398155,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1305.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      32,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      9.5,
+      1070.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 9.5,
+    "cost_usd": 1070.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1569.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -1747.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1305.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      32,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      9.2,
+      820.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 9.2,
+    "cost_usd": 820.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1680.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -1813.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1503.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      32,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      9.0,
+      720.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 9.0,
+    "cost_usd": 720.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1518.176513804333,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -1813.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1503.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      33,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      10.25,
+      1280.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 10.25,
+    "cost_usd": 1280.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1695.540376037025,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -1831.0287616398155,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1362.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      33,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      9.75,
+      1080.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 9.75,
+    "cost_usd": 1080.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1626.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -1807.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1362.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      33,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      9.45,
+      830.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 9.45,
+    "cost_usd": 830.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1737.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -1873.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1560.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      33,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      9.25,
+      730.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 9.25,
+    "cost_usd": 730.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1575.176513804333,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -1873.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1560.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      34,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      10.5,
+      1290.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 10.5,
+    "cost_usd": 1290.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1752.540376037025,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -1891.0287616398155,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1419.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      34,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      10.0,
+      1090.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 10.0,
+    "cost_usd": 1090.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1683.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -1867.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1419.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      34,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      9.7,
+      840.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 9.7,
+    "cost_usd": 840.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1794.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -1933.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1617.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      34,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      9.5,
+      740.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 9.5,
+    "cost_usd": 740.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1632.176513804333,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -1933.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1617.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      35,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      10.75,
+      1300.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 10.75,
+    "cost_usd": 1300.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1809.540376037025,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -1951.0287616398155,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1476.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      35,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      10.25,
+      1100.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 10.25,
+    "cost_usd": 1100.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1740.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -1927.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1476.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      35,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      9.95,
+      850.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 9.95,
+    "cost_usd": 850.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1851.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -1993.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1674.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      35,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      9.75,
+      750.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 9.75,
+    "cost_usd": 750.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1689.176513804333,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -1993.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1674.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      36,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      11.0,
+      1310.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 11.0,
+    "cost_usd": 1310.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1866.540376037025,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -2011.0287616398155,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1533.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      36,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      10.5,
+      1110.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 10.5,
+    "cost_usd": 1110.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1797.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -1987.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1533.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      36,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      10.2,
+      860.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 10.2,
+    "cost_usd": 860.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1908.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -2053.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1731.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      36,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      10.0,
+      760.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 10.0,
+    "cost_usd": 760.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1746.176513804333,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -2053.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1731.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      37,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      11.25,
+      1320.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 11.25,
+    "cost_usd": 1320.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1923.540376037025,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -2071.0287616398155,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1590.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      37,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      10.75,
+      1120.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 10.75,
+    "cost_usd": 1120.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1854.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -2047.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1590.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      37,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      10.45,
+      870.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 10.45,
+    "cost_usd": 870.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1965.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -2113.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1788.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      37,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      10.25,
+      770.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 10.25,
+    "cost_usd": 770.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1803.176513804333,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -2113.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1788.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      38,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      11.5,
+      1330.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 11.5,
+    "cost_usd": 1330.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1980.540376037025,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -2131.0287616398155,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1647.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      38,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      11.0,
+      1130.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 11.0,
+    "cost_usd": 1130.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1911.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -2107.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1647.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      38,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      10.7,
+      880.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 10.7,
+    "cost_usd": 880.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -2022.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -2173.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1845.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      38,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      10.5,
+      780.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 10.5,
+    "cost_usd": 780.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1860.176513804333,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -2173.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1845.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      39,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      11.75,
+      1340.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 11.75,
+    "cost_usd": 1340.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -2037.540376037025,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -2191.0287616398155,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1704.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      39,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      11.25,
+      1140.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 11.25,
+    "cost_usd": 1140.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1968.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -2167.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1704.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      39,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      10.95,
+      890.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 10.95,
+    "cost_usd": 890.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -2079.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -2233.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1902.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      39,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      10.75,
+      790.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 10.75,
+    "cost_usd": 790.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1917.176513804333,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -2233.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1902.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  },
+  {
+    "configuration": [
+      40,
+      0,
+      0
+    ],
+    "objectives": [
+      -0.9966302078396445,
+      12.0,
+      1350.0
+    ],
+    "score": 0.9966302078396445,
+    "mass_kg": 12.0,
+    "cost_usd": 1350.0,
+    "garment": "a_down_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 185.45962396297492,
+    "design_constraints": {
+      "reference_energy_residual_wh": -2094.540376037025,
+      "bus_power_residual_w": -51.02876163981557,
+      "discharge_power_residual_w": -2251.0287616398155,
+      "thermal_capability_residual_w": -18.9353267213436
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1761.0
+    },
+    "design_admissible": true,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 185.45962396297492
+  },
+  {
+    "configuration": [
+      40,
+      0,
+      1
+    ],
+    "objectives": [
+      -0.7295101291805085,
+      11.5,
+      1150.0
+    ],
+    "score": 0.7295101291805085,
+    "mass_kg": 11.5,
+    "cost_usd": 1150.0,
+    "garment": "b_fleece_jumpsuit",
+    "uncovered_demand_ratio": 0.0,
+    "reference_energy_budget_wh": 254.38988767983048,
+    "design_constraints": {
+      "reference_energy_residual_wh": -2025.6101123201695,
+      "bus_power_residual_w": -27.0,
+      "discharge_power_residual_w": -2227.0,
+      "thermal_capability_residual_w": 247.67646128719494
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1761.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 519.0,
+    "reference_load_energy_wh": 254.38988767983048
+  },
+  {
+    "configuration": [
+      40,
+      0,
+      2
+    ],
+    "objectives": [
+      -0.8717122658772475,
+      11.2,
+      900.0
+    ],
+    "score": 0.8717122658772475,
+    "mass_kg": 11.2,
+    "cost_usd": 900.0,
+    "garment": "c_down_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 143.154241011654,
+    "design_constraints": {
+      "reference_energy_residual_wh": -2136.845758988346,
+      "bus_power_residual_w": -93.72840424068899,
+      "discharge_power_residual_w": -2293.728404240689,
+      "thermal_capability_residual_w": 72.23045826563038
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1959.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 143.154241011654
+  },
+  {
+    "configuration": [
+      40,
+      0,
+      3
+    ],
+    "objectives": [
+      -0.4880208209047131,
+      11.0,
+      800.0
+    ],
+    "score": 0.4880208209047131,
+    "mass_kg": 11.0,
+    "cost_usd": 800.0,
+    "garment": "d_fleece_top",
+    "uncovered_demand_ratio": 0.358695652173913,
+    "reference_energy_budget_wh": 305.82348619566704,
+    "design_constraints": {
+      "reference_energy_residual_wh": -1974.176513804333,
+      "bus_power_residual_w": -93.0,
+      "discharge_power_residual_w": -2293.0,
+      "thermal_capability_residual_w": 481.34421239602
+    },
+    "diagnostics": {
+      "full_activation_energy_residual_wh": -1959.0
+    },
+    "design_admissible": false,
+    "full_activation_energy_wh": 321.0,
+    "reference_load_energy_wh": 305.82348619566704
+  }
+]

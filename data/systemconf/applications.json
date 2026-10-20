@@ -1,0 +1,54 @@
+{
+  "schema": "bgems-applications-v1",
+  "currency": "USD",
+  "price_basis_year": 2026,
+  "price_basis_note": "Adopted constant-dollar inputs with a 2026 price basis. Component acquisition prices follow the specified bill of materials.",
+  "charging_efficiency": 0.9,
+  "electricity_price_usd_per_kwh": 0.15,
+  "discount_rate": 0.05,
+  "discount_sensitivity": [0.0, 0.05, 0.1],
+  "lifetime_years": 4,
+  "sensitivity_factors": [0.8, 1.0, 1.2],
+  "lifetime_sensitivity_years": [3, 4, 5],
+  "economics": {
+    "1": {"rental_usd_per_day": 5.0, "utilization_days_per_year": 120.0, "annual_maintenance_usd": 105.0},
+    "2": {"rental_usd_per_day": 50.0, "utilization_days_per_year": 15.0, "annual_maintenance_usd": 131.25}
+  },
+  "cashflow_boundary": {
+    "rental_and_utilization_source": "Adopted rental prices and annual utilization for the two commercial scenarios.",
+    "maintenance_source": "17.5% of baseline annual revenue: 105 USD and 131.25 USD/year, varied independently of rental price and utilization.",
+    "accounting_assumptions": "Adopted inputs: 5% real discount, 0.15 USD/kWh and 90% external charging efficiency; discount sensitivity is 0/5/10%.",
+    "replacement": "Annual maintenance is an aggregate allowance; scheduled replacement expenditure is zero. Lifetime sets the cashflow horizon.",
+    "residual_value_usd": 0.0,
+    "tax_financing_inflation": "Excluded; unlevered constant-dollar pre-tax cashflows.",
+    "energy": "Restore the initial SOC after each completed mission using net battery depletion, which includes utilized PV, body heating, electronics and equipment loads. Grid-export revenue is zero.",
+    "service": "Rental returns use the unperturbed RHC mission energy and specified rental prices and utilization; mission metrics report the localized thermal-comfort score."
+  },
+  "building": {
+    "baseline_setpoint_c": 25.0,
+    "setpoints_c": [25.0, 20.0, 18.0, 15.0],
+    "outdoor_c": -20.0,
+    "heat_loss_kw_per_k": 2.0,
+    "occupants": 30,
+    "metabolic_gain_w_per_person": 134.0,
+    "cop_rated": 3.0,
+    "cop_rated_temperature_c": 7.0,
+    "cop_alpha_per_k2": 0.0004,
+    "cop_valid_temperature_c": [-30.0, 10.0],
+    "day_hours": 24.0,
+    "wearable_heat_credit_fraction": 0.0,
+    "nonmission_setpoint_c": 25.0,
+    "notes": "Lumped building model with outdoor design temperature -20C and temperature-dependent COP. Wearable operation uses 14h indoor profiles shifted from the 15C waveform. The remaining 10h use 25C with the same 30-person heat gain. Wearable operation is confined to the mission; PV and wearable/charger heat credits are zero. The output is net building electricity. Deployment measurements address long-duration wearer acceptance, moisture and equipment performance.",
+    "single_factor_arms": [
+      {"name": "baseline"},
+      {"name": "heat_loss_0.8", "heat_loss_scale": 0.8},
+      {"name": "heat_loss_1.2", "heat_loss_scale": 1.2},
+      {"name": "cop_0.8", "cop_scale": 0.8},
+      {"name": "cop_1.2", "cop_scale": 1.2},
+      {"name": "occupancy_0.8", "occupancy_scale": 0.8},
+      {"name": "occupancy_1.2", "occupancy_scale": 1.2},
+      {"name": "outdoor_-10", "outdoor_c": -10.0},
+      {"name": "outdoor_-30", "outdoor_c": -30.0}
+    ]
+  }
+}

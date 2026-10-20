@@ -1,0 +1,22 @@
+{
+  "missions": [
+    {
+      "scenario_type": 1,
+      "date": "2026-01-01",
+      "duration_h": 3.0,
+      "candidate_count": 160,
+      "configuration": null,
+      "controllers": [
+        "rbc",
+        "pid",
+        "tacs",
+        "rhc"
+      ]
+    }
+  ],
+  "unperturbed_controller_runs_at_most": 4,
+  "mc_samples": 0,
+  "mc_controller_runs": 0,
+  "candidate_controller_runs": 0,
+  "weather_acquisition": false
+}
