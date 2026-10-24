@@ -1,6 +1,16 @@
-# BGEMS code and data
+# BGEMS: An End-to-End Body Grid Configuration and Control Framework for Wearable Thermal Management — code and research data
 
-Version: **v1.1.0-resubmit**. Data DOI: https://doi.org/10.5281/zenodo.23230495 .
+Version: **v1.1.1-resubmit**. Version-specific archive: https://doi.org/10.5281/zenodo.23607419 . Code: https://github.com/thuzhangh25/BGEMS/tree/v1.1.1-resubmit . The previous version v1.1.0-resubmit remains archived at https://doi.org/10.5281/zenodo.23230495 .
+
+## Presentation-only changes
+
+- Fig. 9(a): move the legend above the bars and adjust canvas width/title spacing.
+- Fig. 12: label the reported quantity as net building-electricity savings.
+- Synchronize the framework description and release identity.
+- Preserve model code, input parameters, weather, benchtop CSVs, all recorded trajectories and numerical results. Reuse the complete data archive byte for byte; only its distribution filename changes.
+- The pinned environment describes the inherited research environment, not a claim that simulations were rerun for this release. Historical execution-time source hashes remain unchanged.
+
+This package does not include manuscript sources, response letters or internal review materials. Publication and final journal submission are separate author-controlled steps.
 
 ## Study and contents
 

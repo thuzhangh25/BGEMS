@@ -314,7 +314,7 @@ def plot_study(evidence, output_dir):
 
         stressed = records('experiments/stress/s2/temperature_-5/')
         unperturbed = records('results/s2_')
-        fig, axes = plt.subplots(2, 2, figsize=(8.8, 6.8))
+        fig, axes = plt.subplots(2, 2, figsize=(8.6, 6.8))
         x = np.arange(4)
         axes[0, 0].bar(x-.18, [r['evaluation']['metrics']['mean_service_full_mission'] for r in unperturbed],
                        width=.36, color=[COLORS[c] for c in controllers], alpha=.35, label='Unperturbed')
@@ -323,7 +323,10 @@ def plot_study(evidence, output_dir):
         axes[0, 0].axhline(.8, color='black', linestyle='--', linewidth=1, label='Mean reference 0.80')
         axes[0, 0].set_xticks(x, [c.upper() for c in controllers])
         axes[0, 0].set_ylim(0, 1.04)
-        axes[0, 0].legend(frameon=False, fontsize=11, loc='lower left')
+        axes[0, 0].legend(
+            frameon=False, fontsize=11, loc='lower center',
+            bbox_to_anchor=(.5, 1.02), ncol=2, columnspacing=1.0,
+        )
         for record in stressed:
             controller = record['run']['controller']
             controller_line(axes[0, 1], record, 'score')
@@ -353,6 +356,7 @@ def plot_study(evidence, output_dir):
             (axes[1, 0], 'Elapsed time (h)', 'SOC', 'c) Common reserve boundary'),
             (axes[1, 1], 'Elapsed time (h)', 'Unmet regional heat (Wh)', 'd) Cumulative unmet heat')):
             axes_style(ax, xlabel, ylabel, title)
+        axes[0, 0].set_title('a) Unperturbed versus −5°C', fontsize=13, pad=46)
         legend(fig, axes[0, 1])
         save(fig, 'temperature_perturbation', True)
 
@@ -470,7 +474,7 @@ def plot_study(evidence, output_dir):
                         markerfacecolor='none', label=controller.upper())
         titles = ('Heating-demand fulfillment', 'Active heating', '24-h accounting')
         ylabels = ('Mean localized\nthermal-comfort score',
-                   'Body-heating energy (Wh)', 'Net building saving (%)')
+                   'Body-heating energy (Wh)', 'Net building-electricity\nsavings (%)')
         for row_index, row_axes in enumerate(axes):
             for column, (ax, ylabel, title) in enumerate(zip(row_axes, ylabels, titles)):
                 panel = chr(ord('a') + row_index * 3 + column)

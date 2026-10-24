@@ -1,26 +1,42 @@
 {
-  "version": "v1.1.0-resubmit",
-  "doi": "10.5281/zenodo.23230495",
+  "version": "v1.1.1-resubmit",
+  "publication_status": "release",
+  "doi": "10.5281/zenodo.23607419",
+  "previous_release": {
+    "version": "v1.1.0-resubmit",
+    "doi": "10.5281/zenodo.23230495",
+    "data_archive_reused_byte_identically": true
+  },
   "repository": "https://github.com/thuzhangh25/BGEMS",
   "records": {
     "code": 12,
     "data": 4166,
     "total": 4178
   },
-  "verification": {
-    "offline_tests": true,
-    "offline_missions": 12,
-    "quick_full_png_equal": {
-      "regional_allocation.png": true,
-      "configuration.png": true,
-      "controllers.png": true,
-      "economics.png": true,
-      "catalogue_scaling.png": true,
-      "robustness.png": true,
-      "temperature_perturbation.png": true,
-      "indoor.png": true,
-      "qinling_fleece_controllers.png": true
+  "inherited_verification": {
+    "applies_to": "v1.1.0-resubmit numerical research",
+    "details": {
+      "offline_tests": true,
+      "offline_missions": 12,
+      "quick_full_png_equal": {
+        "regional_allocation.png": true,
+        "configuration.png": true,
+        "controllers.png": true,
+        "economics.png": true,
+        "catalogue_scaling.png": true,
+        "robustness.png": true,
+        "temperature_perturbation.png": true,
+        "indoor.png": true,
+        "qinling_fleece_controllers.png": true
+      }
     }
+  },
+  "verification": {
+    "nine_figure_groups_rendered": true,
+    "numerical_artists_unchanged": true,
+    "two_target_figures_match_manuscript_pixels": true,
+    "unchanged_other_pngs": 7,
+    "scientific_simulations_rerun": false
   },
   "packages": [
     {
@@ -28,8 +44,8 @@
       "files_sha256": {
         ".gitignore": "db1262f8abdc1f4cb41ce7c89c050bf81607dbdf2bdf9af17b80d460430e76f7",
         "LICENSE": "81535b744c6f2d33b071a0f4763a49fa0226d64f994c693a936a61728915dca4",
-        "README.md": "6a1073fdfa171fe5e910ec73e68851037603c7fd8bdf732b9424780563af2b41",
-        "RELEASE.md": "1013e7f0d98aaa0a166b5eee88cb548be4e90d7274ec8a343c9b85da01f4a7ce",
+        "README.md": "23e7207a092dbdd3f361516b8fa693abdee339e07bdbd7df151aa055bfe60d2d",
+        "RELEASE.md": "56c6d8f14a0b06818c89928dc621e087cb17b0f5124246b9f13ccfdc3d1598de",
         "data/experiments/0521_pad_air.csv": "ab7cd6ca554f949bfb4dca450cd09c43f18e066f839edc6529fc175840070a8c",
         "data/experiments/0521_pad_fleece_center.csv": "120ec4349631478799f012691240bf238efdadef083297324ef77b4907ecf18a",
         "data/experiments/0521_pad_fleece_edge.csv": "2e532f01e5ec72006739c4491abed923843e54f08137e49fc755eb60c887d9b7",
@@ -89,7 +105,7 @@
         "scripts/compare.py": "fbb4edcc7219b25590a9061c322f0d16a187c771622de1a0dc49fedf699e743b",
         "scripts/evaluate_applications.py": "5fa21bb080eda5002ed404a54dcc87df5bab154e219a0f2829b0980f42c3c407",
         "scripts/pad_temperature_response.py": "7fb0928a89de5e2b918717af5084a36af52b302fff15f2acad3e988d982d25eb",
-        "scripts/plot_results.py": "b062f589fdb5eeaf471abbeee901b5225d601a7ae3c84ae36e3f0a12ea9d3f38",
+        "scripts/plot_results.py": "2ed90436fe99a8d453a4b36b992fa39a35abdd6377969e1fab0e312761850699",
         "scripts/plot_weather_context.py": "92ae5a4cf7f2b903274f355d6e5ecd67eae913bd08d40cc8ae5f1c4256169405",
         "scripts/report_evidence.py": "cf18c13ac454dfef28650dd17832092264fa683817242f55e4d550a091d86c9f",
         "scripts/reproduce_study.py": "cadf716957427994b73e5b22714d0508c85641df68adba3e1f5880c0f39894bc",

@@ -1,10 +1,12 @@
 # BGEMS
 
-BGEMS (Body Grid End-to-End Management System) is a scenario-driven framework linking regional wearable-heating demand, finite hardware configuration and predictive operation. Receding horizon control (RHC) coordinates regional heating with state-of-charge (SOC)-weighted discharge costs and remaining-load reserves. Comparisons with rule-based control (RBC), proportional–integral–derivative (PID) control and thermal adaptive control strategy (TACS) evaluate three scenarios, paired perturbations, catalogue scaling, rental returns and building-electricity savings.
+BGEMS (Body Grid End-to-End Management System) is a scenario-driven configuration and control framework for wearable thermal management, linking regional heating demand, finite hardware configuration and predictive operation. Receding horizon control (RHC) coordinates regional heating with state-of-charge (SOC)-weighted discharge costs and remaining-load reserves. Comparisons with rule-based control (RBC), proportional–integral–derivative (PID) control and thermal adaptive control strategy (TACS) evaluate three scenarios, paired perturbations, catalogue scaling, rental returns and building-electricity savings.
 
 **Reproduce numerical results and data-derived figures from the supplied inputs and simulation records.**
 
-Release: **v1.1.0-resubmit**. Code: https://github.com/thuzhangh25/BGEMS . Complete code and research data: https://doi.org/10.5281/zenodo.23230495 . Extract the code and data archives into the same directory to reproduce all study results.
+Version: **v1.1.1-resubmit**. Code: https://github.com/thuzhangh25/BGEMS/tree/v1.1.1-resubmit . Code and research-data archive: https://doi.org/10.5281/zenodo.23607419 . Extract this version's code and data archives into the same directory to reproduce the study results.
+
+This presentation-only update moves the Fig. 9(a) legend above the bars and refines its layout, and changes the Fig. 12 axis wording to net building-electricity savings. Numerical inputs, simulation records and results are unchanged. The previous GitHub tag and Zenodo version remain available for the earlier figure presentation.
 
 ## Install
 
